@@ -36,7 +36,7 @@ const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, subm
         onChange={event => handleChange(event)}
         />
       <button
-        className="resy-button"
+        className="resy-button submit"
         onClick={event => submitResy(event)}>
         Make Reservation
         </button>
