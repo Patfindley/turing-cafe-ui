@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css'
 
 const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, submitResy }) => {
   return (

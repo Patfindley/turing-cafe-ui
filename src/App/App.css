@@ -18,12 +18,17 @@
   font-size: 50px;
 }
 
+.resy-form {
+  display: flex;
+}
+
 .resy-container {
   display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+  width: 95%;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 
 }
