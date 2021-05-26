@@ -35,6 +35,5 @@ describe('Reservations', () => {
     .get('[class="resy-button submit"]').click()
     .get('[class="resy-name"]')
     .contains('Gordon Ramsey')
-
   })
 })

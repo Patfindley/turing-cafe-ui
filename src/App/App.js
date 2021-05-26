@@ -20,6 +20,7 @@ class App extends Component {
   componentDidMount = async() => {
     await fetchReservations()
     .then(data => this.setState({reservations: data}))
+    console.log(this.state.reservations)
   }
 
   handleChange = event => {
