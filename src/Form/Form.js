@@ -4,6 +4,7 @@ const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, subm
   return (
     <form>
       <input
+        className="name-input"
         type="text"
         placeholder="Name"
         name="nameInput"
@@ -11,6 +12,7 @@ const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, subm
         onChange={event => handleChange(event)}
         />
       <input
+      className="date-input"
         type="text"
         placeholder="Date (mm/dd)"
         name="dateInput"
@@ -18,6 +20,7 @@ const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, subm
         onChange={event => handleChange(event)}
         />
       <input
+      className="time-input"
         type="text"
         placeholder="Time"
         name="timeInput"
@@ -25,6 +28,7 @@ const Form = ({ nameInput, dateInput, timeInput, guestsInput, handleChange, subm
         onChange={event => handleChange(event)}
         />
       <input
+      className="guests-input"
         type="text"
         placeholder="Number of guests"
         name="guestsInput"
